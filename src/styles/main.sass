@@ -1,5 +1,42 @@
-$mautim: #87509c //Tím 
-$maungoc: #17c2a4 // Cyan
-$mauvang: #ffdd99 // Vang 
-$maudo: #d74680 // Đỏ 
-$mauxanh: #3c5499 // Xanh 
+@import ./_pages/index
+.home_slider
+    +chuan($mautim,50px)
+    h1
+        color: #fff
+        letter-spacing: 1px
+    .btn.btn-more
+        background: $maucam
+        color: black
+.home_service
+    background: $maungoc
+    padding-top: 200px
+    h3
+        text-align: center
+        color: #fff
+        letter-spacing: 1px
+        position: relative
+        font-size: 2rem
+        &:before
+            content: ""
+            width: 7%
+            height: 4px
+            background: #c8d9e5
+            position: absolute
+            bottom: -10px
+            left: 50%
+            transform: translateX(-50%)
+    h5
+        text-align: center
+        padding-top: 10px
+        color: #fff
+    h4
+        text-align: center
+        color: #fff
+    p
+        text-align: center
+        color: #fff
+    .col-sm-3
+        padding-top: 50px
+        padding-left: 50px
+
+
